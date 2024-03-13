@@ -18,7 +18,8 @@ PillsMemo is an iOS application designed to assist users with medication managem
   
 
 
+![PillsMemo](https://github.com/ElishevaMedioni/PillsMemo/assets/73399121/f258392e-4925-4ac6-a286-2bc381dcd222)
 
-https://github.com/ElishevaMedioni/PillsMemo/assets/73399121/94c7d8c8-7b8c-47bf-b9d4-abd37c96277a
+
 
 
