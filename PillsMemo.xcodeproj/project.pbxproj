@@ -11,6 +11,16 @@
 		3CC0D8812B9E23E9004B196D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0D8802B9E23E9004B196D /* ContentView.swift */; };
 		3CC0D8832B9E23EC004B196D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC0D8822B9E23EC004B196D /* Assets.xcassets */; };
 		3CC0D8862B9E23EC004B196D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC0D8852B9E23EC004B196D /* Preview Assets.xcassets */; };
+		3CC0D88D2B9E25BF004B196D /* ColorOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0D88C2B9E25BF004B196D /* ColorOption.swift */; };
+		3CC0D88F2B9E48AA004B196D /* CustomLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0D88E2B9E48AA004B196D /* CustomLabelStyle.swift */; };
+		3CC0D8932B9E4918004B196D /* Dose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0D8902B9E4918004B196D /* Dose.swift */; };
+		3CC0D8942B9E4918004B196D /* DoseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0D8912B9E4918004B196D /* DoseRow.swift */; };
+		3CC0D8952B9E4918004B196D /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0D8922B9E4918004B196D /* Drug.swift */; };
+		3CC0D89B2B9E4940004B196D /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0D8962B9E4940004B196D /* NotificationManager.swift */; };
+		3CC0D89C2B9E4940004B196D /* DrugData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0D8972B9E4940004B196D /* DrugData.swift */; };
+		3CC0D89D2B9E4940004B196D /* DrugEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0D8982B9E4940004B196D /* DrugEditor.swift */; };
+		3CC0D89E2B9E4940004B196D /* DrugList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0D8992B9E4940004B196D /* DrugList.swift */; };
+		3CC0D89F2B9E4940004B196D /* DrugRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0D89A2B9E4940004B196D /* DrugRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		3CC0D8802B9E23E9004B196D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3CC0D8822B9E23EC004B196D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CC0D8852B9E23EC004B196D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CC0D88C2B9E25BF004B196D /* ColorOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOption.swift; sourceTree = "<group>"; };
+		3CC0D88E2B9E48AA004B196D /* CustomLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelStyle.swift; sourceTree = "<group>"; };
+		3CC0D8902B9E4918004B196D /* Dose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dose.swift; path = "../../../../Downloads/PillsMemo-main/Dose.swift"; sourceTree = "<group>"; };
+		3CC0D8912B9E4918004B196D /* DoseRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DoseRow.swift; path = "../../../../Downloads/PillsMemo-main/DoseRow.swift"; sourceTree = "<group>"; };
+		3CC0D8922B9E4918004B196D /* Drug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drug.swift; path = "../../../../Downloads/PillsMemo-main/Drug.swift"; sourceTree = "<group>"; };
+		3CC0D8962B9E4940004B196D /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationManager.swift; path = "../../../../Downloads/PillsMemo-main/NotificationManager.swift"; sourceTree = "<group>"; };
+		3CC0D8972B9E4940004B196D /* DrugData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrugData.swift; path = "../../../../Downloads/PillsMemo-main/DrugData.swift"; sourceTree = "<group>"; };
+		3CC0D8982B9E4940004B196D /* DrugEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrugEditor.swift; path = "../../../../Downloads/PillsMemo-main/DrugEditor.swift"; sourceTree = "<group>"; };
+		3CC0D8992B9E4940004B196D /* DrugList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrugList.swift; path = "../../../../Downloads/PillsMemo-main/DrugList.swift"; sourceTree = "<group>"; };
+		3CC0D89A2B9E4940004B196D /* DrugRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrugRow.swift; path = "../../../../Downloads/PillsMemo-main/DrugRow.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +71,17 @@
 		3CC0D87D2B9E23E9004B196D /* PillsMemo */ = {
 			isa = PBXGroup;
 			children = (
+				3CC0D88E2B9E48AA004B196D /* CustomLabelStyle.swift */,
+				3CC0D8972B9E4940004B196D /* DrugData.swift */,
+				3CC0D8982B9E4940004B196D /* DrugEditor.swift */,
+				3CC0D8992B9E4940004B196D /* DrugList.swift */,
+				3CC0D89A2B9E4940004B196D /* DrugRow.swift */,
+				3CC0D8962B9E4940004B196D /* NotificationManager.swift */,
+				3CC0D8902B9E4918004B196D /* Dose.swift */,
+				3CC0D8912B9E4918004B196D /* DoseRow.swift */,
+				3CC0D8922B9E4918004B196D /* Drug.swift */,
 				3CC0D87E2B9E23E9004B196D /* PillsMemoApp.swift */,
+				3CC0D88C2B9E25BF004B196D /* ColorOption.swift */,
 				3CC0D8802B9E23E9004B196D /* ContentView.swift */,
 				3CC0D8822B9E23EC004B196D /* Assets.xcassets */,
 				3CC0D8842B9E23EC004B196D /* Preview Content */,
@@ -138,7 +168,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CC0D8812B9E23E9004B196D /* ContentView.swift in Sources */,
+				3CC0D88F2B9E48AA004B196D /* CustomLabelStyle.swift in Sources */,
+				3CC0D89F2B9E4940004B196D /* DrugRow.swift in Sources */,
+				3CC0D8932B9E4918004B196D /* Dose.swift in Sources */,
+				3CC0D8942B9E4918004B196D /* DoseRow.swift in Sources */,
+				3CC0D89D2B9E4940004B196D /* DrugEditor.swift in Sources */,
+				3CC0D89E2B9E4940004B196D /* DrugList.swift in Sources */,
 				3CC0D87F2B9E23E9004B196D /* PillsMemoApp.swift in Sources */,
+				3CC0D8952B9E4918004B196D /* Drug.swift in Sources */,
+				3CC0D89C2B9E4940004B196D /* DrugData.swift in Sources */,
+				3CC0D89B2B9E4940004B196D /* NotificationManager.swift in Sources */,
+				3CC0D88D2B9E25BF004B196D /* ColorOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PillsMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8BKNLXP3GY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PillsMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8BKNLXP3GY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
