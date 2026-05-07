@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CA3B3F42D75CB7E00016DED /* DrugRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3B3F32D75CB7E00016DED /* DrugRowView.swift */; };
+		3CA3B3F62D75CB9500016DED /* CustomLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3B3F52D75CB9500016DED /* CustomLabelStyle.swift */; };
+		3CA3B3F82D75D14300016DED /* DrugDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3B3F72D75D14300016DED /* DrugDetailView.swift */; };
+		3CA3B3FC2D75D1C000016DED /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3B3FB2D75D1C000016DED /* NotificationManager.swift */; };
+		3CA3B3FE2D787A8800016DED /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3B3FD2D787A8800016DED /* EmptyState.swift */; };
+		3CA3B4002D87654D00016DED /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3B3FF2D87654D00016DED /* ColorPickerView.swift */; };
+		3CAAF65D2D9563F3002941DB /* DrugDoseScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAAF65C2D9563F3002941DB /* DrugDoseScheduleView.swift */; };
+		3CAAF65F2D9975BB002941DB /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAAF65E2D9975BB002941DB /* DayCell.swift */; };
+		3CAAF6622D99763A002941DB /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAAF6612D99763A002941DB /* WeekView.swift */; };
+		3CAAF6642D997668002941DB /* DoseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAAF6632D997668002941DB /* DoseRowView.swift */; };
+		3CAAF6662D99DE4A002941DB /* DrugEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAAF6652D99DE4A002941DB /* DrugEditorView.swift */; };
+		3CD5C7892BF4DEBB00BE2665 /* PillsMemoV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5C7882BF4DEBB00BE2665 /* PillsMemoV2App.swift */; };
+		3CD5C78B2BF4DEBB00BE2665 /* DrugsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5C78A2BF4DEBB00BE2665 /* DrugsListView.swift */; };
+		3CD5C78D2BF4DEBD00BE2665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5C78C2BF4DEBD00BE2665 /* Assets.xcassets */; };
+		3CD5C7902BF4DEBD00BE2665 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5C78F2BF4DEBD00BE2665 /* Preview Assets.xcassets */; };
+		3CD5C7972BF4DF2400BE2665 /* Dose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5C7962BF4DF2400BE2665 /* Dose.swift */; };
+		3CD5C79A2BF4E1A400BE2665 /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5C7992BF4E1A400BE2665 /* Drug.swift */; };
+		3CD5C79E2BF4E21C00BE2665 /* DrugType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5C79D2BF4E21C00BE2665 /* DrugType.swift */; };
+		3CD5C7A02BF4E35600BE2665 /* Frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5C79F2BF4E35600BE2665 /* Frequency.swift */; };
+		3CD5C7A22BF4E3BC00BE2665 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5C7A12BF4E3BC00BE2665 /* Duration.swift */; };
+		3CD5C7A42BF4E67800BE2665 /* ColorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5C7A32BF4E67800BE2665 /* ColorOptions.swift */; };
+		71F382EF2F99F9460085A626 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F382ED2F99F9460085A626 /* NotificationPermissionView.swift */; };
+		71F382F02F99F9460085A626 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F382EC2F99F9460085A626 /* DisclaimerView.swift */; };
+		71F382F22F9A39090085A626 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F382F12F9A39090085A626 /* PreviewData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CA3B3F32D75CB7E00016DED /* DrugRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugRowView.swift; sourceTree = "<group>"; };
+		3CA3B3F52D75CB9500016DED /* CustomLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelStyle.swift; sourceTree = "<group>"; };
+		3CA3B3F72D75D14300016DED /* DrugDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugDetailView.swift; sourceTree = "<group>"; };
+		3CA3B3FB2D75D1C000016DED /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		3CA3B3FD2D787A8800016DED /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		3CA3B3FF2D87654D00016DED /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		3CAAF65C2D9563F3002941DB /* DrugDoseScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugDoseScheduleView.swift; sourceTree = "<group>"; };
+		3CAAF65E2D9975BB002941DB /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		3CAAF6612D99763A002941DB /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		3CAAF6632D997668002941DB /* DoseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseRowView.swift; sourceTree = "<group>"; };
+		3CAAF6652D99DE4A002941DB /* DrugEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugEditorView.swift; sourceTree = "<group>"; };
+		3CD5C7852BF4DEBB00BE2665 /* PillsMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillsMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD5C7882BF4DEBB00BE2665 /* PillsMemoV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsMemoV2App.swift; sourceTree = "<group>"; };
+		3CD5C78A2BF4DEBB00BE2665 /* DrugsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugsListView.swift; sourceTree = "<group>"; };
+		3CD5C78C2BF4DEBD00BE2665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CD5C78F2BF4DEBD00BE2665 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CD5C7962BF4DF2400BE2665 /* Dose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dose.swift; sourceTree = "<group>"; };
+		3CD5C7992BF4E1A400BE2665 /* Drug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drug.swift; sourceTree = "<group>"; };
+		3CD5C79D2BF4E21C00BE2665 /* DrugType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugType.swift; sourceTree = "<group>"; };
+		3CD5C79F2BF4E35600BE2665 /* Frequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frequency.swift; sourceTree = "<group>"; };
+		3CD5C7A12BF4E3BC00BE2665 /* Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		3CD5C7A32BF4E67800BE2665 /* ColorOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOptions.swift; sourceTree = "<group>"; };
+		71F382EC2F99F9460085A626 /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
+		71F382ED2F99F9460085A626 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
+		71F382F12F9A39090085A626 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		71F382F32F9E02C70085A626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CD5C7822BF4DEBB00BE2665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAAF6602D997609002941DB /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				3CAAF65C2D9563F3002941DB /* DrugDoseScheduleView.swift */,
+				3CAAF65E2D9975BB002941DB /* DayCell.swift */,
+				3CAAF6612D99763A002941DB /* WeekView.swift */,
+				3CAAF6632D997668002941DB /* DoseRowView.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		3CD5C77C2BF4DEBB00BE2665 = {
+			isa = PBXGroup;
+			children = (
+				3CD5C7872BF4DEBB00BE2665 /* PillsMemoV2 */,
+				3CD5C7862BF4DEBB00BE2665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CD5C7862BF4DEBB00BE2665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CD5C7852BF4DEBB00BE2665 /* PillsMemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CD5C7872BF4DEBB00BE2665 /* PillsMemoV2 */ = {
+			isa = PBXGroup;
+			children = (
+				71F382F32F9E02C70085A626 /* Info.plist */,
+				3CAAF6602D997609002941DB /* Schedule */,
+				3CD5C7982BF4E13500BE2665 /* Model */,
+				3CD5C7882BF4DEBB00BE2665 /* PillsMemoV2App.swift */,
+				3CD5C78A2BF4DEBB00BE2665 /* DrugsListView.swift */,
+				3CA3B3F72D75D14300016DED /* DrugDetailView.swift */,
+				3CAAF6652D99DE4A002941DB /* DrugEditorView.swift */,
+				3CA3B3FF2D87654D00016DED /* ColorPickerView.swift */,
+				3CA3B3FB2D75D1C000016DED /* NotificationManager.swift */,
+				3CA3B3F32D75CB7E00016DED /* DrugRowView.swift */,
+				3CA3B3F52D75CB9500016DED /* CustomLabelStyle.swift */,
+				3CA3B3FD2D787A8800016DED /* EmptyState.swift */,
+				3CD5C78C2BF4DEBD00BE2665 /* Assets.xcassets */,
+				71F382EE2F99F9460085A626 /* Onboarding */,
+				3CD5C78E2BF4DEBD00BE2665 /* Preview Content */,
+			);
+			path = PillsMemoV2;
+			sourceTree = "<group>";
+		};
+		3CD5C78E2BF4DEBD00BE2665 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71F382F12F9A39090085A626 /* PreviewData.swift */,
+				3CD5C78F2BF4DEBD00BE2665 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CD5C7982BF4E13500BE2665 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CD5C7962BF4DF2400BE2665 /* Dose.swift */,
+				3CD5C7992BF4E1A400BE2665 /* Drug.swift */,
+				3CD5C7A12BF4E3BC00BE2665 /* Duration.swift */,
+				3CD5C79F2BF4E35600BE2665 /* Frequency.swift */,
+				3CD5C7A32BF4E67800BE2665 /* ColorOptions.swift */,
+				3CD5C79D2BF4E21C00BE2665 /* DrugType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71F382EE2F99F9460085A626 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				71F382EC2F99F9460085A626 /* DisclaimerView.swift */,
+				71F382ED2F99F9460085A626 /* NotificationPermissionView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CD5C7842BF4DEBB00BE2665 /* PillsMemoV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD5C7932BF4DEBD00BE2665 /* Build configuration list for PBXNativeTarget "PillsMemoV2" */;
+			buildPhases = (
+				3CD5C7812BF4DEBB00BE2665 /* Sources */,
+				3CD5C7822BF4DEBB00BE2665 /* Frameworks */,
+				3CD5C7832BF4DEBB00BE2665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PillsMemoV2;
+			productName = PillsMemoV2;
+			productReference = 3CD5C7852BF4DEBB00BE2665 /* PillsMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CD5C77D2BF4DEBB00BE2665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3CD5C7842BF4DEBB00BE2665 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 3CD5C7802BF4DEBB00BE2665 /* Build configuration list for PBXProject "PillsMemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CD5C77C2BF4DEBB00BE2665;
+			productRefGroup = 3CD5C7862BF4DEBB00BE2665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CD5C7842BF4DEBB00BE2665 /* PillsMemoV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CD5C7832BF4DEBB00BE2665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD5C7902BF4DEBD00BE2665 /* Preview Assets.xcassets in Resources */,
+				3CD5C78D2BF4DEBD00BE2665 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CD5C7812BF4DEBB00BE2665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA3B3F82D75D14300016DED /* DrugDetailView.swift in Sources */,
+				3CA3B3F42D75CB7E00016DED /* DrugRowView.swift in Sources */,
+				3CAAF6662D99DE4A002941DB /* DrugEditorView.swift in Sources */,
+				3CAAF65F2D9975BB002941DB /* DayCell.swift in Sources */,
+				3CD5C7A42BF4E67800BE2665 /* ColorOptions.swift in Sources */,
+				3CA3B3FC2D75D1C000016DED /* NotificationManager.swift in Sources */,
+				3CAAF6642D997668002941DB /* DoseRowView.swift in Sources */,
+				3CD5C7972BF4DF2400BE2665 /* Dose.swift in Sources */,
+				3CD5C78B2BF4DEBB00BE2665 /* DrugsListView.swift in Sources */,
+				3CA3B4002D87654D00016DED /* ColorPickerView.swift in Sources */,
+				3CD5C7892BF4DEBB00BE2665 /* PillsMemoV2App.swift in Sources */,
+				71F382EF2F99F9460085A626 /* NotificationPermissionView.swift in Sources */,
+				71F382F02F99F9460085A626 /* DisclaimerView.swift in Sources */,
+				3CD5C79A2BF4E1A400BE2665 /* Drug.swift in Sources */,
+				3CD5C79E2BF4E21C00BE2665 /* DrugType.swift in Sources */,
+				3CD5C7A02BF4E35600BE2665 /* Frequency.swift in Sources */,
+				3CAAF65D2D9563F3002941DB /* DrugDoseScheduleView.swift in Sources */,
+				71F382F22F9A39090085A626 /* PreviewData.swift in Sources */,
+				3CAAF6622D99763A002941DB /* WeekView.swift in Sources */,
+				3CA3B3FE2D787A8800016DED /* EmptyState.swift in Sources */,
+				3CD5C7A22BF4E3BC00BE2665 /* Duration.swift in Sources */,
+				3CA3B3F62D75CB9500016DED /* CustomLabelStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CD5C7912BF4DEBD00BE2665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CD5C7922BF4DEBD00BE2665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CD5C7942BF4DEBD00BE2665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PillsMemoV2/Preview Content\"";
+				DEVELOPMENT_TEAM = 8BKNLXP3GY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PillsMemoV2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elishevamar.PillsMemoV2;
+				PRODUCT_NAME = PillsMemo;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CD5C7952BF4DEBD00BE2665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PillsMemoV2/Preview Content\"";
+				DEVELOPMENT_TEAM = 8BKNLXP3GY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PillsMemoV2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elishevamar.PillsMemoV2;
+				PRODUCT_NAME = PillsMemo;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CD5C7802BF4DEBB00BE2665 /* Build configuration list for PBXProject "PillsMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD5C7912BF4DEBD00BE2665 /* Debug */,
+				3CD5C7922BF4DEBD00BE2665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD5C7932BF4DEBD00BE2665 /* Build configuration list for PBXNativeTarget "PillsMemoV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD5C7942BF4DEBD00BE2665 /* Debug */,
+				3CD5C7952BF4DEBD00BE2665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CD5C77D2BF4DEBB00BE2665 /* Project object */;
+}
